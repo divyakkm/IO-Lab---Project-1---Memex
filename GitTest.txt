@@ -1,0 +1,7 @@
+This is a text file. If you clone this and see this on your local, Github is set correctly.
+
+Just add your name to below list when done:
+
+1. Divya
+2.
+3.
