@@ -6,8 +6,8 @@ TEAM MEMBERS AND ROLES:
 The team brainstormed together on what needs to be built.
 Dheera Tallapragada - Built JS, CSS, HTML, jQuery code. Tested the application and fixed bugs.
 Divyakumar Menghani - Built JS, CSS, HTML, jQuery code. Tested the application and fixed bugs.
-Ankita Bhosle - CSS Development, Tested the application.
-Ashwin Chandak - CSS Development
+Ankita Bhosle - HTML and CSS Development, Tested the application.
+Ashwin Chandak - HTML and CSS Development
 
 TECHNOLOGIES USED: Delicious APIs, HTML, CSS, Javascript, jQuery 
 
