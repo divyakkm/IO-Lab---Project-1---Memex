@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>
+Trail Blazer </title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js">
+      </script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<script src="js/main-solutions.js">
+      </script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+<h1>
+Trail Blazer </h1>
+</header>
+<div id="main">
+    <div id="searchSection">
+        <h3>
+        &nbsp;&nbsp;Step 1: Enter the Username of your Delicious account </h3>
+        <form id="loadBookmarks" name="loadBookmarks" method="get">
+                <label>Username: </label><input type="text" name="user" id="sourceUser" placeholder="E.g. user01"/>
+            <input type="submit" value="Get Bookmarks" class="btns"/>
+        </form>
+        <h3>
+        &nbsp;&nbsp;Step 2: Filter by desired tag </h3>
+        <form id="searchByTagName" name="searchByTagName" method="get">
+                <label>Enter tag(s): </label>
+                <input type="text" name="tagname" id="tagName" placeholder="Tags to search"/>
+            <input type="submit" value="Search by tag" class="btns"/>
+        </form>
+        
+    </div>
+    <div id="createTrailSection">
+        <h3>
+        &nbsp;&nbsp;Step 4: Enter your target Delicious account credentials, give a name to &nbsp;&nbsp;your trail and hit 'Post Trail' to post your trail to Delicious' </h3>
+        <form id="saveBookmarks" name="saveBookmarks" method="post">
+            <p>
+                <label>
+                Enter trail name </label>
+                <input type="text" id="trailName">
+            </p>
+            <p>
+                <label>
+                User Name </label>
+                <input type="text" name="user" id="targetUser"/>
+            </p>
+            <p>
+                <label>
+                Password </label>
+                <input type="password" name="password" id="password"/>
+            </p>
+            <!--
+<div id="forTrailName">
+-->
+          
+            <!--
+</div>
+-->
+            <input type="submit" value="Post Trail" class="btns1">
+        </form>
+    </div>
+    <div id="linksDisplaySection">
+        <h3>
+        &nbsp;&nbsp;Step 3: Choose the links to add to your trail </h3>
+        <ul id="bookmarks">
+        </ul>
+ 
+    </div>
+    <div id="blankSection">
+       </div>
+</div>
+</body>
+</html>

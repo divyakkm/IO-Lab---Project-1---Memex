@@ -1,0 +1,112 @@
+/* --------------------------------------- GENERAL STYLES --------------------------------------- */
+
+h1 {text-align: center;}
+
+/*
+
+body {
+    background-image: url('C:\Users\Ankita\Desktop\fabric_of_squares_gray_@2X.png');
+    color: #00cc99;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+*/
+
+body {
+background: url(tree_bark.png);
+font-family: 'Life Savers', cursive;
+height: 100%;
+padding: 35px; 
+margin:15px; 
+}
+
+html { height: 100%; padding: 35px; margin:15px; }
+div { width: 50%; height: 50%; float: left; }
+#searchSection { background: #FFFFFF;}
+#linksDisplaySection{ background: #000000; overflow:auto;opacity:0.6; }
+#createTrailSection{ background: RGB(51,153,255);opacity:0.6; }
+#blankSection { background: #DCDCDC; }
+#main { height:100%; width: 100%; position: relative; }
+
+
+a {
+    color:#1FA1FA;
+}
+
+
+
+header {
+    float: center;
+        
+}
+/*
+a {
+    color:#1FA1FA;
+}
+
+
+
+
+*/
+#bookmarks .tags {
+	display:inline-block;
+	font-size: 20px;
+	color:#FFFFFF;
+
+}
+
+#checkboxdiv{
+	position: absolute;
+	padding-top: 20px;
+}
+/*
+#bookmarks li {
+	float: left;
+
+  padding-top:50px;
+  margin-bottom:10px;
+  color: #FFFFFF
+
+}*/
+
+label, #loadBookmarks.sourceUser {
+	padding: 20px;
+}
+
+.btns {
+	font-family: 'Life Savers', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px;
+	height: 30px;
+	border: 2px outset;
+	margin: 8px;
+}
+
+/*------------------------------------- LAYOUT -------------------------------------------------*/
+/*
+
+#wrapper {
+    width:1400px;
+    margin:0 auto;
+    background:#fff;
+    overflow:auto;
+}
+
+#main {
+	padding:40px;
+}
+
+
+#bookmarks li {
+	margin-bottom:10px;
+}
+
+#bookmarks {
+	padding:10px;
+	
+	min-height:250px;
+	list-style-type:none;
+}
+
+*/
