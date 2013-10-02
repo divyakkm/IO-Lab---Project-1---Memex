@@ -13,4 +13,5 @@ TECHNOLOGIES USED: Delicious APIs, HTML, CSS, Javascript, jQuery
 
 LINK TO DEMO VERSION: http://people.ischool.berkeley.edu/~dheera/
 
-KNOWN BUGS: Missing validations on text fields, Check boxes don't get auto-cleared
+KNOWN BUGS: Missing validations on text fields, Check boxes don't get auto-cleared, Validation missing 
+if links already exist in the Delicious account
